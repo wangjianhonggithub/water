@@ -1,0 +1,138 @@
+			.footer{
+				background-color:#2f3238 ;
+				padding-top: 60px;
+			}
+			.footer-box{
+				border-bottom: 1px solid #424751;
+				padding-bottom: 110px;
+			}
+			.scope-box{
+				float: left;
+				width: 10%;	
+				padding-right: 25px;			
+			}
+			.scope-title{
+				height: 35px;
+				line-height: 35px;
+				border-bottom: 1px solid #424751;				
+				color: #FFFFFF;
+				font-size: 14px;
+				margin-bottom: 15px;
+			}
+			.footer-scope-item{
+				display: block;
+				height: 30px;
+				line-height: 30px;
+				color: #6a7b8b;
+				font-size: 14px;
+			}
+			.footer-service-box{
+				float: left;
+				width: 10%;	
+				padding-right: 25px;
+			}
+			.footer-service-title{
+				height: 35px;
+				line-height: 35px;
+				border-bottom: 1px solid #424751;				
+				color: #FFFFFF;
+				font-size: 14px;
+				margin-bottom: 15px;
+			}
+			.footer-service-item{
+				display: block;
+				height: 30px;
+				line-height: 30px;
+				color: #6a7b8b;
+				font-size: 14px;
+			}
+			.why-us{
+				float: left;
+				width: 14%;	
+				padding-right: 25px;
+			}
+			.why-us-title{
+				height: 35px;
+				line-height: 35px;
+				border-bottom: 1px solid #424751;				
+				color: #FFFFFF;
+				font-size: 14px;
+				margin-bottom: 15px;
+			}
+			.why-us-item{
+				display: block;
+				height: 30px;
+				line-height: 30px;
+				color: #6a7b8b;
+				font-size: 14px;
+			}
+			.contact-us{
+				float: left;
+				width: 30%;	
+				padding-right: 25px;
+			}
+			.contact-us-title{
+				height: 35px;
+				line-height: 35px;
+				border-bottom: 1px solid #424751;				
+				color: #FFFFFF;
+				font-size: 14px;
+				margin-bottom: 15px;
+			}
+			.contact-us-email{
+				display: block;
+				height: 30px;
+				line-height: 30px;
+				color: #6a7b8b;
+				font-size: 14px;
+			}
+			.contact-us-address{
+				display: block;
+				height: 30px;
+				line-height: 30px;
+				color: #6a7b8b;
+				font-size: 14px;
+			}
+			.contact-us-mobile{
+				display: block;
+				height: 30px;
+				line-height: 30px;
+				color: #6a7b8b;
+				font-size: 14px;
+			}
+			.contact-us-tel{
+				display: block;
+				height: 30px;
+				line-height: 30px;
+				color: #6a7b8b;
+				font-size: 14px;
+			}
+			.focus-us{
+				float: right;
+				width: 20%;	
+				padding-right: 25px;
+			}
+			.focus-us-title{
+				height: 35px;
+				line-height: 35px;
+				border-bottom: 1px solid #424751;				
+				color: #FFFFFF;
+				font-size: 14px;
+				margin-bottom: 15px;
+			}
+			.focus-us img{
+				height: 120px;
+				line-height: 120px;
+				display: block;
+				float: right;
+			}
+			.footer-bot{
+				height: 70px;
+				line-height: 70px;
+				text-align: center;
+				font-size: 14px;
+				color: #727b8b;
+			}
+			.footer-bot span{
+				margin:0px 10px ;
+			}

@@ -1,0 +1,250 @@
+			.banner{
+	    		height: 500px;
+	    		background-image: url(../img/news-banner.jpg);
+	    		background-size: cover;
+	    	}
+	    	.news-tab{
+	    		width: 284px;
+	    		height: 50px;
+	    		margin: 0 auto;
+	    		padding-top: 250px;
+	    	}
+	    	.tab-item-a{
+	    		display: block;
+	    		width: 140px;
+	    		height: 50px;
+	    		text-align: center;
+	    		line-height: 50px;
+	    		font-size: 16px;
+	    		color: #8ebb27;
+	    		background-color: #FFFFFF;
+	    		font-weight: bolder;
+	    		float: left;
+	    		margin-right: 4px;
+	    	}
+	    	.tab-item-b{
+	    		display: block;
+	    		width: 140px;
+	    		height: 50px;
+	    		text-align: center;
+	    		line-height: 50px;
+	    		font-size: 16px;
+	    		color: #8ebb27;
+	    		background-color: #FFFFFF;
+	    		font-weight: bolder;
+	    		float: left;
+	    	}
+	    	.ac{
+	    		background-color: #8ebb27;
+	    		color: #FFFFFF;
+	    	}
+	    	.news{
+	    		padding-top: 40px;	 
+	    		padding-bottom: 290px;   		
+	    	}
+	    	.news-title{
+	    		height: 40px;
+	    		line-height: 40px;
+	    		font-weight: bolder;
+	    		text-align: center;
+	    		font-size: 28px;
+	    	}
+	    	.news-title-e{
+	    		height: 30px;
+	    		line-height: 30px;
+	    		text-align: center;
+	    		font-size: 14px;
+	    		text-transform: uppercase;
+	    	}
+	    	.news-list{
+	    		margin-top: 55px;
+	    		border-top: 1px solid #dddddd;
+	    	}
+	    	.news-item{
+	    		height: 55px;
+	    		line-height: 55px;
+	    		border-bottom:1px solid #dddddd ;
+	    	}
+	    	.news-date{
+	    		height: 55px;
+	    		line-height: 55px;
+	    		font-size: 16px;
+	    		color: #444444;
+	    		margin-left: 25px;
+	    		float: left;	    		
+	    	}
+	    	.news-item-title{
+	    		height: 55px;
+	    		line-height: 55px;
+	    		font-size: 16px;
+	    		color: #444444;
+	    		padding-left: 125px;
+	    		float: left;
+	    		text-overflow: ellipsis;
+				overflow: hidden;
+				white-space: nowrap;	
+	    	}
+	    	.nav-details{
+				display: none;
+			}
+			.nav-a{
+				width: 50%;
+				position: absolute;
+				top:60px ;
+				right: 0px;
+				z-index: 99;
+				display: none;
+			}
+			.nav-a-item{
+				height: 30px;
+				line-height: 30px;
+				font-size: 14px;
+				text-align: center;
+				border-bottom: 1px solid #fff;
+				color: #fff;
+				width: 100%;
+				display: block;
+				background-color: #0a70ba;				
+			}
+@media only screen and (max-width: 420px) {
+	.box{
+		width: 95%;
+	}
+	#top{
+		height: 20px;
+	}
+	.top-mobile{
+		height: 20px;
+		line-height: 20px;
+		font-size: 10px;
+		margin-left: 10px;
+	}
+	.top-email{
+		height: 20px;
+		line-height: 20px;
+		font-size: 10px;
+	}	
+	#header{
+		height: 40px;
+		padding: 10px 0px;	
+		position: relative;
+	}
+	.logo{
+		height: 40px;
+		width: 100px;
+	}
+	.logo img{
+		height: 100%;
+		width: 100%;
+		display: block;
+	}
+	.nav{
+		display: none;
+	}
+	.service-number{
+		display: none;
+	}
+	.nav-details{
+		display: block;
+		height: 40px;
+		float: right;
+	}
+	.nav-details img{
+		display: block;
+		height: 40px;
+		width: 40px;
+	}
+	.banner{
+		height: 80px;
+	}
+	.news-tab{
+		width: 120px;
+		height: 20px;
+		padding-top: 30px;
+	}
+	.tab-item-a{
+		width: 55px;
+		height: 20px;
+		line-height: 20px;
+		font-size: 12px;		
+	}
+	.tab-item-b{
+		width: 55px;
+		height: 20px;
+		line-height: 20px;
+		font-size: 12px;
+		float: right;
+	}
+	.news{
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.news-title{
+		height: 30px;
+		line-height: 30px;
+		font-size: 20px;
+	}
+	.news-title-e{
+		font-size: 12px;
+	}
+	.news-list{
+		margin-top: 10px;
+	}
+	.news-item{
+		height: 30px;
+		line-height: 30px;		
+	}
+	.news-date{
+		margin-left: 0px;
+		height: 30px;
+		line-height: 30px;
+		font-size: 12px;
+		display: none;
+	}
+	.news-item-title{
+		height: 30px;
+		line-height: 30px;
+		font-size: 12px;
+		padding-left: 0px;
+		text-indent: 1em;
+	}
+	
+	.footer{
+		padding-top: 20px;
+	}
+	.footer-box{
+		padding-bottom: 20px;
+	}
+	.scope-box{
+		width: 100%;
+		float: none;
+	}
+	.scope-title{
+		margin-bottom: 0px;
+	}
+	.footer-service-box{
+		width: 100%;
+		float: none;
+	}
+	.why-us{
+		width: 100%;
+		float: none;
+	}
+	.contact-us{
+		width: 100%;
+		float: none;
+	}
+	.focus-us{
+		width: 100%;
+		float: none;
+	}
+	.focus-us img{
+		float: none;
+		margin: 0 auto;
+	}
+	.footer-bot{
+		height:30px;
+		line-height: 30px;
+		font-size: 10px;
+	}
+}	

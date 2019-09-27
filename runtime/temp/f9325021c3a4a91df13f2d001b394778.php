@@ -1,0 +1,209 @@
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:81:"E:\PHPTutorial\WWW\ankeman\public/../application/index\view\index\advantages.html";i:1567671864;}*/ ?>
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compitable" content="IE=edge">
+		<meta name="renderer" content="webkit">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+		<title>安柯曼</title>
+		<!--[if lt IE 9]>
+	    <script src="js/html5shiv.min.js"></script>
+	    <script src="js/respond.min.js"></script>
+	    <![endif]-->
+	    <script type="text/javascript" src="static/index/js/jquery-1.11.0.js" ></script>
+	    <script type="text/javascript" src="static/index/js/advantages.js" ></script>
+	    <link rel="stylesheet" type="text/css" href="static/index/css/header.css"/>
+	    <link rel="stylesheet" href="static/index/css/footer.css" />
+	    <link rel="stylesheet" type="text/css" href="static/index/css/advantages.css"/>
+	</head>
+	<body >
+		<div id="top">
+			<div class="box">
+				<div class="top-mobile">联系电话：<span></span></div>
+				<div class="top-email">举报邮箱:<span></span></div>
+			</div>
+		</div>
+		<div id="header">
+			<div class="box">
+				<a class="logo" href="index.html">
+					<img src="static/index/img/logo.jpg" />
+				</a>
+				<div class="nav">
+					
+				</div>
+				<div class="service-number">
+					<div class="number"><?php echo \think\Session::get('phone'); ?></div>
+					<img src="static/index/img/service-number.jpg" />
+				</div>
+				<div id="aaa"  class="nav-details">
+					<img src="static/index/img/nav-details.png"/>
+				</div>
+				<div class="nav-a">
+					
+				</div>
+			</div>
+		</div>
+		<div class="banner"></div>
+		<div class="advantages-big-box">
+			
+		</div>
+		<!-- <div class="advantages">
+			<div class="advantages-box">
+				<div class="advantages-index">
+					<div class="advantages-index-a">
+						<div class="advantages-index-b">
+							<div class="advantages-index-c">1</div>
+						</div>
+					</div>
+				</div>
+				<div class="advantages-content">
+					<div class="advantages-tilte">
+						<div class="advantages-title-text advantages-one"><span class="a">进口</span><span>技术</span></div>
+					</div>
+					<div class="advantages-text">进口技术，植物提取液除醛除味为本体</div>
+				</div>
+			</div>
+		</div>
+		<div class="advantages-b">
+			<div class="advantages-b-box">
+				<div class="advantages-b-index">
+					<div class="advantages-b-index-a">
+						<div class="advantages-b-index-b">
+							<div class="advantages-b-index-c">2</div>
+						</div>
+					</div>
+				</div>
+				<div class="advantages-b-content">
+					<div class="advantages-b-tilte">
+						<div class="advantages-b-title-text advantages-two"><span class="a">长期</span><span class="b">质保</span></div>
+					</div>
+					<div class="advantages-b-text">除醛、除味长期质保不反弹</div>
+				</div>
+			</div>
+		</div>
+		<div class="advantages">
+			<div class="advantages-box">
+				<div class="advantages-index">
+					<div class="advantages-index-a">
+						<div class="advantages-index-b">
+							<div class="advantages-index-c">3</div>
+						</div>
+					</div>
+				</div>
+				<div class="advantages-content">
+					<div class="advantages-tilte">
+						<div class="advantages-title-text advantages-three"><span class="a">负氧</span><span class="b">离子</span></div>
+					</div>
+					<div class="advantages-text">不断释放负氧离子，保持良好的生活空间</div>
+				</div>
+			</div>
+		</div>
+		<div class="advantages-b">
+			<div class="advantages-b-box">
+				<div class="advantages-b-index">
+					<div class="advantages-b-index-a">
+						<div class="advantages-b-index-b">
+							<div class="advantages-b-index-c">4</div>
+						</div>
+					</div>
+				</div>
+				<div class="advantages-b-content">
+					<div class="advantages-b-tilte">
+						<div class="advantages-b-title-text advantages-four"><span class="a">空气</span><span class="b">质量</span></div>
+					</div>
+					<div class="advantages-b-text">消除霉菌、病毒、细菌的滋生环境，长期保持室内空气质量 </div>
+				</div>
+			</div>
+		</div>
+		<div class="advantages">
+			<div class="advantages-box">
+				<div class="advantages-index">
+					<div class="advantages-index-a">
+						<div class="advantages-index-b">
+							<div class="advantages-index-c">5</div>
+						</div>
+					</div>
+				</div>
+				<div class="advantages-content">
+					<div class="advantages-tilte">
+						<div class="advantages-title-text advantages-five"><span class="a">10年</span><span class="b">经验</span></div>
+					</div>
+					<div class="advantages-text">10年经验治理工程师，持证上岗</div>
+				</div>
+			</div>
+		</div>
+		<div class="advantages-b">
+			<div class="advantages-b-box">
+				<div class="advantages-b-index">
+					<div class="advantages-b-index-a">
+						<div class="advantages-b-index-b">
+							<div class="advantages-b-index-c">6</div>
+						</div>
+					</div>
+				</div>
+				<div class="advantages-b-content">
+					<div class="advantages-b-tilte">
+						<div class="advantages-b-title-text advantages-six"><span class="a">欧盟</span><span class="b">标准</span></div>
+					</div>
+					<div class="advantages-b-text">治理后室内空气质量控制在欧盟标准 </div>
+				</div>
+			</div>
+		</div>
+		<div class="advantages">
+			<div class="advantages-box">
+				<div class="advantages-index">
+					<div class="advantages-index-a">
+						<div class="advantages-index-b">
+							<div class="advantages-index-c">7</div>
+						</div>
+					</div>
+				</div>
+				<div class="advantages-content">
+					<div class="advantages-tilte">
+						<div class="advantages-title-text"><span class="a">24小时响应服务</span></div>
+					</div>
+				</div>
+			</div>
+		</div> -->
+		<div class="advantages-bot"></div>
+		<div class="footer">
+			<div class="box">
+				<div class="footer-box">
+					<div class="scope-box">
+						<div class="scope-title">服务范围</div>
+						
+					</div>
+					<div class="footer-service-box">
+						<div class="footer-service-title">服务项目</div>
+
+					</div>
+					<div class="why-us">
+						<div class="why-us-title">为什么选择我们</div>
+						<a class="why-us-item" href="product.html?#a">产品技术</a>
+						<a class="why-us-item" href="product.html?#b">产品优势</a>
+						<a class="why-us-item" href="product.html?#c">服务标准</a>
+						<a class="why-us-item" href="product.html?#e">服务流程</a>
+						<a class="why-us-item" href="product.html?#d">服务承诺</a>
+					</div>
+					<div class="contact-us">
+						<div class="contact-us-title">联系我们</div>
+						<div class="contact-us-tel">座机：<span></span></div>
+						<div class="contact-us-mobile">手机：<span></span></div>
+						<div class="contact-us-email">邮箱：<span></span></div>
+						<div class="contact-us-address">地址：<span></span></div>
+					</div>
+					<div class="focus-us">
+						<div class="focus-us-title">关注我们</div>
+						<img src="static/uploads/<?php echo \think\Session::get('code'); ?>"/>
+					</div>
+					<div class="clear"></div>
+				</div>
+				<div class="footer-bot">版权所有<span>北京安柯曼环保科技有限公司 </span>京ICP备xxxxx号</div>
+			</div>
+		</div>	
+		<script src="static/index/js/footer.js" type="text/javascript" charset="utf-8"></script>					
+	</body>
+</html>
+
+

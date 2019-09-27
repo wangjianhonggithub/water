@@ -1,0 +1,216 @@
+			.banner{
+	    		height: 500px;
+	    		background-image: url(../img/problem-banner.jpg);
+	    		background-size: cover;
+	    	}
+	    	.problem-tab-box{
+	    		width: 30%;
+	    		float: left;
+	    		margin-top: 160px;
+	    	}
+	    	.problem-tab{
+				height: 130px;
+				width: 100%;
+				border: 1px dashed #eeeeee;
+				border-radius: 10px;
+				line-height: 130px;
+				text-align: center;
+				font-size: 18px;
+				font-weight: bolder;
+				color: #FFFFFF;
+	    	}
+	    	.p-l{
+	    		margin-left:5% ;
+	    	}
+	    	.p-r{
+	    		margin-right:5% ;
+	    	}
+	    	.problem{
+	    		padding: 40px 0px;
+	    	}
+	    	.news-title{
+	    		height: 40px;
+	    		line-height: 40px;
+	    		font-weight: bolder;
+	    		text-align: center;
+	    		font-size: 28px;
+	    	}
+	    	.news-title-e{
+	    		height: 30px;
+	    		line-height: 30px;
+	    		text-align: center;
+	    		font-size: 14px;
+	    		text-transform: uppercase;
+	    	}
+	    	.problem-list{
+	    		padding-top: 50px;
+	    	}
+	    	.problem-item{
+	    		padding: 15px 0px;
+	    		border-top: 1px solid #dddddd;
+	    	}
+	    	.problem-title{
+	    		height: 30px;
+	    		line-height: 30px;
+	    		font-size: 16px;
+	    		color: #0d6fb8;
+	    	}
+	    	.answer{
+	    		line-height: 30px;
+	    		font-size: 16px;
+	    		color: #555555;
+	    	}
+	    	.nav-details{
+				display: none;
+			}
+			.nav-a{
+				width: 50%;
+				position: absolute;
+				top:60px ;
+				right: 0px;
+				z-index: 99;
+				display: none;
+			}
+			.nav-a-item{
+				height: 30px;
+				line-height: 30px;
+				font-size: 14px;
+				text-align: center;
+				border-bottom: 1px solid #fff;
+				color: #fff;
+				width: 100%;
+				display: block;
+				background-color: #0a70ba;				
+			}
+@media only screen and (max-width: 420px) {
+	.box{
+		width: 95%;
+	}
+	#top{
+		height: 20px;
+	}
+	.top-mobile{
+		height: 20px;
+		line-height: 20px;
+		font-size: 10px;
+		margin-left: 10px;
+	}
+	.top-email{
+		height: 20px;
+		line-height: 20px;
+		font-size: 10px;
+	}	
+	#header{
+		height: 40px;
+		padding: 10px 0px;	
+		position: relative;
+	}
+	.logo{
+		height: 40px;
+		width: 100px;
+	}
+	.logo img{
+		height: 100%;
+		width: 100%;
+		display: block;
+	}
+	.nav{
+		display: none;
+	}
+	.service-number{
+		display: none;
+	}
+	.nav-details{
+		display: block;
+		height: 40px;
+		float: right;
+	}
+	.nav-details img{
+		display: block;
+		height: 40px;
+		width: 40px;
+	}
+	.banner{
+		height: 200px;
+	}
+	.problem-tab-box{
+		margin-top: 10px;
+	}
+	.problem-tab{
+		height: 180px;
+		padding: 0px;
+		font-size: 12px;
+		line-height: 20px;
+	}
+	.problem{
+		padding: 10px 0px;
+	}
+	.news-title{
+		height: 30px;
+		line-height: 30px;
+		font-size: 20px;
+	}
+	.news-title-e{
+		font-size: 12px;
+	}
+	.problem-list{
+		padding-top: 10px;
+	}
+	.problem-item{
+		padding: 5px 0px;
+	}
+	.problem-title{
+		height: 20px;
+		line-height: 20px;
+		font-size: 14px;
+		text-overflow: ellipsis;
+		overflow: hidden;
+		white-space: nowrap;
+	}
+	.answer{
+		height: 20px;
+		line-height: 20px;
+		font-size: 12px;
+		text-overflow: ellipsis;
+		overflow: hidden;
+		white-space: nowrap;
+	}
+	.footer{
+		padding-top: 20px;
+	}
+	.footer-box{
+		padding-bottom: 20px;
+	}
+	.scope-box{
+		width: 100%;
+		float: none;
+	}
+	.scope-title{
+		margin-bottom: 0px;
+	}
+	.footer-service-box{
+		width: 100%;
+		float: none;
+	}
+	.why-us{
+		width: 100%;
+		float: none;
+	}
+	.contact-us{
+		width: 100%;
+		float: none;
+	}
+	.focus-us{
+		width: 100%;
+		float: none;
+	}
+	.focus-us img{
+		float: none;
+		margin: 0 auto;
+	}
+	.footer-bot{
+		height:30px;
+		line-height: 30px;
+		font-size: 10px;
+	}
+}				

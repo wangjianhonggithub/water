@@ -1,0 +1,78 @@
+{extend name="Public:base" /}
+{block name="content"}
+<div class="panel">
+  <!-- Panel heading -->
+  <div class="panel-heading">
+
+    <h3 class="panel-title">关于我们</h3>
+
+  </div>
+  <div id="demo-custom-toolbar2" class="table-toolbar-left">
+        <a href="javascript:;" id="demo-dt-addrow-btn" class="btn btn-primary" onClick="javascript:history.back()">返回列表</a> 
+  </div>
+    <br/>
+    <br/>
+  <!-- Panel body -->
+  <form id="demo-bv-errorcnt" class="form-horizontal bv-form" action="" method="POST" novalidate="novalidate">
+  <input type="hidden" name="id" value="{$rs.id}">
+    <button type="submit" class="bv-hidden-submit" style="display: none; width: 0px; height: 0px;"></button>
+    <div class="panel-body">
+      <div class="tab-content">
+        <!--SHOWING ERRORS IN TOOLTIP-->
+        <!--===================================================-->
+			<div class="form-group has-feedback">
+				<label class="col-lg-3 control-label">关于我们</label>
+				<div class="col-lg-4">
+				  <textarea rows="25" wrap="hard" class="form-control" name="content"  placeholder="" data-bv-field="name">{$rs.content}</textarea>
+				  <i class="form-control-feedback" data-bv-icon-for="name" style="display: none;"></i>
+				</div>
+			</div>
+			
+      
+       </div>
+    </div>
+	<div class="panel-footer clearfix">
+      <div class="col-lg-7 col-lg-offset-3">
+        <button type="button" class="btn btn-mint" id="CreateSubmit" value="点击修改">点击修改</button></div>
+    </div>
+  </form>
+</div>
+<script>
+  $(function(){
+      $('#CreateSubmit').click(function(){
+	    var id = $("input[name='id']").val();
+        var content = $("textarea[name='content']").val();
+        $.ajax({
+          type: 'POST',
+          url: '/Admin/Aboutas/edit',
+          data: {
+			id:id,
+            content:content
+          },
+          success: function(data){
+              var data= eval('('+data+')');
+              if (data.code == 1) {
+                  layer.msg(data.meg, function(){
+                    //关闭后的操作
+                  });
+                  setTimeout(function(){
+                    window.location.href='/Admin/Aboutas';
+                  },1500);
+              }else{
+                  layer.msg(data.meg, function(){
+                    //关闭后的操作
+                  });
+                  return false;
+              }
+          },
+		  error:function(){
+			layer.msg('与服务器失去连接', function(){
+			   //关闭后的操作
+		    });
+		  }
+        });
+      })
+  });
+</script>
+{/block}
+  

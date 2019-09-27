@@ -1,0 +1,361 @@
+.banner{
+	    		height: 500px;
+	    		background-image: url(../img/service-banner.jpg);
+	    		background-size: cover;
+	    	}
+	    	.banner-list{
+	    		width: 48%;
+	    		margin: 0 auto;
+	    		padding-top: 170px;
+	    		height: 132px;
+	    	}	    	
+	    	.banner-item-box{
+	    		height: 132px;
+	    		width: 25%;
+	    		float: left;
+	    		box-sizing:boder-box;
+	    	}
+	    	.item-big-box{
+	    		margin: 0px 10px;
+	    	}
+	    	.banner-item{
+	    		height: 130px;
+	    		width: 100%;
+	    		border:1px dashed #eeeeee;
+	    		border-radius: 10px;
+	    		line-height: 130px;
+	    		text-align: center;
+	    		font-size: 18px;
+	    		font-weight: bolder;
+	    		color: #FFFFFF;
+	    	}
+	    	.banner-item-active{
+	    		background-color: #247ccb;
+	    	}
+	    	.yuyue{
+	    		background-color: #f9f9f9;
+	    	}
+	    	.yuyue-box{
+	    		padding: 30px 0px;
+	    	}
+	    	.appointment-title{
+	    		height: 45px;
+	    		line-height: 45px;
+	    		font-size: 22px;
+	    		font-weight: bolder;
+	    		color: #333333;
+	    	}
+	    	.appointment{
+	    		margin-top: 20px;
+	    		height: 42px;
+	    	}
+	    	#appointment-name{
+	    		display: block;
+	    		height: 40px;
+	    		line-height: 40px;
+	    		font-size: 16px;
+	    		border: 1px solid #dddddd;
+	    		border-radius: 5px;
+	    		padding-left: 10px;
+	    		float: left;
+	    		margin-right: 20px;
+	    	}
+	    	#appointment-mobile{
+	    		display: block;
+	    		height: 40px;
+	    		line-height: 40px;
+	    		font-size: 16px;
+	    		border: 1px solid #dddddd;
+	    		border-radius: 5px;
+	    		padding-left: 10px;
+	    		float: left;
+	    		margin-right: 20px;
+	    	}
+	    	#appointment-area{
+	    		display: block;
+	    		height: 40px;
+	    		line-height: 40px;
+	    		font-size: 16px;
+	    		border: 1px solid #dddddd;
+	    		border-radius: 5px;
+	    		padding-left: 10px;
+	    		float: left;
+	    		margin-right: 20px;
+	    	}
+	    	#s1{
+	    		display: block;
+	    		height: 40px;
+	    		line-height: 40px;
+	    		font-size: 16px;
+	    		border: 1px solid #dddddd;
+	    		border-radius: 5px;
+	    		padding-left: 10px;
+	    		float: left;
+	    		margin-right: 20px;
+	    		width: 150px;
+	    	}
+	    	#s2{
+	    		display: block;
+	    		height: 40px;
+	    		line-height: 40px;
+	    		font-size: 16px;
+	    		border: 1px solid #dddddd;
+	    		border-radius: 5px;
+	    		padding-left: 10px;
+	    		float: left;
+	    		width: 150px;
+	    	}
+	    	.sub-appointment{
+	    		display: block;
+	    		float: right;
+	    		height: 40px;
+	    		line-height: 40px;
+	    		font-size: 16px;
+	    		border-radius: 5px;
+	    		text-align: center;
+	    		width: 180px;
+	    		background-color: #8ebb27;
+	    		color: #FFFFFF;	    		
+	    	}
+	    	.service-list{
+	    		padding-top: 40px;
+	    		padding-bottom: 240px;
+	    	}
+	    	.service-item-box{
+	    		float: left;
+	    		width: 25%;
+	    		margin-bottom: 40px;
+	    	}
+	    	.service-item{
+	    		margin: 0 10px;
+	    		border: 1px solid #dddddd;
+	    		border-radius: 6px;
+	    	}
+	    	.service-item img{
+	    		display: block;
+	    		height: 220px;
+	    		width: 100%;
+	    		border-radius: 6px 6px 0px 0px;	    		
+	    	}
+	    	.service-item-text{
+	    		padding: 30px 15px;
+	    		height: 150px;
+	    		line-height: 30px;
+	    		overflow: hidden;
+	    		font-size: 16px;
+	    		color: #444444;
+	    		border-bottom: 1px solid #DDDDDD;
+	    	}
+	    	.service-item-date{
+	    		height: 50px;
+	    		line-height: 50px;
+	    		font-size: 16px;
+	    		color: #444444;
+	    		padding: 0px 15px;
+	    	}
+	    	.nav-details{
+				display: none;
+			}
+			.nav-a{
+				width: 50%;
+				position: absolute;
+				top:60px ;
+				right: 0px;
+				z-index: 99;
+				display: none;
+			}
+			.nav-a-item{
+				height: 30px;
+				line-height: 30px;
+				font-size: 14px;
+				text-align: center;
+				border-bottom: 1px solid #fff;
+				color: #fff;
+				width: 100%;
+				display: block;
+				background-color: #0a70ba;				
+			}
+@media only screen and (max-width: 420px) {
+	.box{
+		width: 95%;
+	}
+	#top{
+		height: 20px;
+	}
+	.top-mobile{
+		height: 20px;
+		line-height: 20px;
+		font-size: 10px;
+		margin-left: 10px;
+	}
+	.top-email{
+		height: 20px;
+		line-height: 20px;
+		font-size: 10px;
+	}	
+	#header{
+		height: 40px;
+		padding: 10px 0px;	
+		position: relative;
+	}
+	.logo{
+		height: 40px;
+		width: 100px;
+	}
+	.logo img{
+		height: 100%;
+		width: 100%;
+		display: block;
+	}
+	.nav{
+		display: none;
+	}
+	.service-number{
+		display: none;
+	}
+	.nav-details{
+		display: block;
+		height: 40px;
+		float: right;
+	}
+	.nav-details img{
+		display: block;
+		height: 40px;
+		width: 40px;
+	}
+	.banner{
+		height: 200px;
+	}
+	.banner-list{
+		width: 90%;
+		height: 100px;
+		padding-top: 50px;
+	}
+	.banner-item-box{
+		width: 50%;
+		height: 50px;
+	}
+	.banner-item{
+		height: 40px;
+		line-height: 40px;
+		font-size: 12px;
+	}
+	.yuyue-box{
+		padding: 20px 0px;
+	}
+	.appointment-title{
+		height: 60px;
+		line-height: 30px;
+		font-size: 16px;
+	}
+	.appointment{
+		height: auto;
+	}
+	#appointment-name{
+		height: 30px;
+		line-height: 30px;
+		float: none;
+		margin-left: 0px;
+		width: 100%;
+		padding-left:0px;
+		margin-top: 10px;
+	}
+	#appointment-mobile{
+		height: 30px;
+		line-height: 30px;
+		float: none;
+		margin-left: 0px;
+		width: 100%;
+		padding-left:0px;
+		margin-top: 10px;
+	}
+	#appointment-area{
+		height: 30px;
+		line-height: 30px;
+		float: none;
+		margin-left: 0px;
+		width: 100%;
+		padding-left:0px;
+		margin-top: 10px;
+	}
+	#sheng{
+		height: 30px;
+		line-height: 30px;
+		float: none;
+		margin-left: 0px;
+		width: 100%;
+		padding-left:0px;
+		margin-top: 10px;
+	}
+	#city{
+		height: 30px;
+		line-height: 30px;
+		float: none;
+		margin-left: 0px;
+		width: 100%;
+		padding-left:0px;
+		margin-top: 10px;
+	}
+	.sub-appointment{
+		float:none;
+		margin: 10px auto;
+	}
+	.service-list{
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	.service-item-box{
+		float: none;
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.service-item-text{
+		padding: 10px;
+		line-height: 20px;
+		height: 100px;
+		overflow: hidden;
+	}
+	.service-item-date{
+		padding: 0px 10px;
+		height: 30px;
+		line-height: 30px;
+	}
+	.footer{
+		padding-top: 20px;
+	}
+	.footer-box{
+		padding-bottom: 20px;
+	}
+	.scope-box{
+		width: 100%;
+		float: none;
+	}
+	.scope-title{
+		margin-bottom: 0px;
+	}
+	.footer-service-box{
+		width: 100%;
+		float: none;
+	}
+	.why-us{
+		width: 100%;
+		float: none;
+	}
+	.contact-us{
+		width: 100%;
+		float: none;
+	}
+	.focus-us{
+		width: 100%;
+		float: none;
+	}
+	.focus-us img{
+		float: none;
+		margin: 0 auto;
+	}
+	.footer-bot{
+		height:30px;
+		line-height: 30px;
+		font-size: 10px;
+	}
+}				

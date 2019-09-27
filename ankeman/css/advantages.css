@@ -1,0 +1,419 @@
+body{	    		
+	    		overflow-x:visible;
+	    		overflow-x:hidden;
+	    	}
+	    	.banner{
+	    		height: 600px;
+	    		background-image: url(../img/advantages-banner.jpg);
+	    		background-size: cover;
+	    	}
+	    	.advantages{
+	    		background-color: #FFFFFF;
+	    		transform: rotate(-4deg);
+	    		height: 300px;
+	    		margin-top: -80px;
+	    		margin-left: -100px;
+	    		width: 120%;
+	    	}
+	    	.advantages-box{
+	    		width: 1200px;
+	    		margin: 0 auto;
+	    		background-color: #FFFFFF;
+	    		height: 100%;
+	    		position: relative;
+	    	}
+	    	.advantages-index{
+	    		height: 320px;
+	    		width: 320px;
+	    		padding: 15px;
+	    		border-radius: 50%;
+	    		position: absolute;
+	    		left: -60px;
+	    		top: -60px;
+	    		transform: rotate(4deg);
+	    		background: -webkit-linear-gradient(#509bdd, #c0aeda); 
+			    background: -o-linear-gradient(#509bdd, #c0aeda); 
+			    background: -moz-linear-gradient(#509bdd, #c0aeda); 
+			    background: linear-gradient(#509bdd, #c0aeda); 
+			    opacity: 0.6;
+	    	}
+	    	.advantages-index-a{
+	    		height: 280px;
+	    		width: 280px;
+	    		background: -webkit-linear-gradient(#2e8bd8, #a7d7f3); 
+			    background: -o-linear-gradient(#2e8bd8, #a7d7f3); 
+			    background: -moz-linear-gradient(#2e8bd8, #a7d7f3); 
+			    background: linear-gradient(#2e8bd8, #a7d7f3); 
+	    		padding: 20px;
+	    		border-radius: 50%;
+	    	}
+	    	.advantages-index-b{
+	    		height: 220px;
+	    		width: 220px;
+	    		background: -webkit-linear-gradient(45deg,#419de0, #59b3e9); 
+			    background: -o-linear-gradient(45deg,#419de0, #59b3e9); 
+			    background: -moz-linear-gradient(45deg,#419de0, #59b3e9); 
+			    background: linear-gradient(45deg,#419de0, #59b3e9); 
+	    		padding: 30px;
+	    		border-radius: 50%;
+	    	}
+	    	.advantages-index-c{
+	    		height: 220px;
+	    		width: 220px;
+	    		background-color: #87c8ef;
+	    		border-radius: 50%;
+	    		line-height: 220px;
+	    		text-align: center;
+	    		color: #FFFFFF;
+	    		font-size: 60px;
+	    		font-weight: bolder;
+	    	}
+	    	.advantages-content{
+	    		position: absolute;
+	    		left: 30%;
+	    		top: 90px;
+	    		transform: rotate(4deg);
+	    	}
+	    	.advantages-tilte{
+	    		height: 59px;
+	    		width: 470px;
+	    		border-bottom: 1px solid #dddddd;
+	    		position: relative;
+	    	}
+	    	.advantages-title-text{
+	    		height: 58px;
+	    		border-bottom: 2px solid #000000;
+	    		position: absolute;
+	    		left: 0px;
+	    		top: 0px;
+	    		line-height: 58px;
+	    		font-size: 28px;
+	    	}
+	    	.advantages-title-text .a{
+	    		font-weight: bolder;	    		
+	    	}
+	    	.advantages-text{
+	    		height: 60px;
+	    		line-height: 60px;
+	    		font-size: 16px;	    		
+	    	}
+	    	.advantages-b{
+	    		background-color: #d2deea;
+	    		transform: rotate(-4deg);
+	    		height: 380px;
+	    		margin-left: -100px;
+	    		width: 120%;
+	    	}
+	    	.advantages-b-box{
+	    		width: 1200px;
+	    		margin: 0 auto;
+	    		background-color: #d2deea;
+	    		height: 100%;
+	    		position: relative;
+	    	}
+	    	.advantages-b-index{
+	    		height: 320px;
+	    		width: 320px;
+	    		padding: 15px;
+	    		border-radius: 50%;
+	    		position: absolute;
+	    		right: 100px;
+	    		top: -60px;
+	    		transform: rotate(4deg);
+	    		background: -webkit-linear-gradient(#509bdd, #c0aeda); 
+			    background: -o-linear-gradient(#509bdd, #c0aeda); 
+			    background: -moz-linear-gradient(#509bdd, #c0aeda); 
+			    background: linear-gradient(#509bdd, #c0aeda); 
+			    opacity: 0.6;
+	    	}
+	    	.advantages-b-index-a{
+	    		height: 280px;
+	    		width: 280px;
+	    		background: -webkit-linear-gradient(#2e8bd8, #a7d7f3); 
+			    background: -o-linear-gradient(#2e8bd8, #a7d7f3); 
+			    background: -moz-linear-gradient(#2e8bd8, #a7d7f3); 
+			    background: linear-gradient(#2e8bd8, #a7d7f3); 
+	    		padding: 20px;
+	    		border-radius: 50%;
+	    	}
+	    	.advantages-b-index-b{
+	    		height: 220px;
+	    		width: 220px;
+	    		background: -webkit-linear-gradient(45deg,#419de0, #59b3e9); 
+			    background: -o-linear-gradient(45deg,#419de0, #59b3e9); 
+			    background: -moz-linear-gradient(45deg,#419de0, #59b3e9); 
+			    background: linear-gradient(45deg,#419de0, #59b3e9); 
+	    		padding: 30px;
+	    		border-radius: 50%;
+	    	}
+	    	.advantages-b-index-c{
+	    		height: 220px;
+	    		width: 220px;
+	    		background-color: #87c8ef;
+	    		border-radius: 50%;
+	    		line-height: 220px;
+	    		text-align: center;
+	    		color: #FFFFFF;
+	    		font-size: 60px;
+	    		font-weight: bolder;
+	    	}
+	    	.advantages-b-content{
+	    		position: absolute;
+	    		left: 10%;
+	    		top: 90px;
+	    		transform: rotate(4deg);
+	    	}
+	    	.advantages-b-tilte{
+	    		height: 59px;
+	    		width: 470px;
+	    		border-bottom: 1px solid #e5e9ed;
+	    		position: relative;
+	    	}
+	    	.advantages-b-title-text{
+	    		height: 58px;
+	    		border-bottom: 2px solid #ffffff;
+	    		position: absolute;
+	    		right: 0px;
+	    		top: 0px;
+	    		line-height: 58px;
+	    		font-size: 28px;
+	    		color: #ffffff;
+	    	}
+	    	.advantages-b-title-text span{
+	    		font-weight: bolder;	    		
+	    	}
+	    	.advantages-b-text{
+	    		height: 60px;
+	    		line-height: 60px;
+	    		font-size: 16px;
+	    		color: #ffffff;
+	    		text-align: right;	    		
+	    	}
+	    	.advantages-bot{
+	    		height: 90px;
+	    	}
+	    	.nav-details{
+				display: none;
+			}
+			.nav-a{
+				width: 50%;
+				position: absolute;
+				top:60px ;
+				right: 0px;
+				z-index: 99;
+				display: none;
+			}
+			.nav-a-item{
+				height: 30px;
+				line-height: 30px;
+				font-size: 14px;
+				text-align: center;
+				border-bottom: 1px solid #fff;
+				color: #fff;
+				width: 100%;
+				display: block;
+				background-color: #0a70ba;				
+			}
+@media only screen and (max-width: 420px) {
+	.box{
+		width: 95%;
+	}
+	#top{
+		height: 20px;
+	}
+	.top-mobile{
+		height: 20px;
+		line-height: 20px;
+		font-size: 10px;
+		margin-left: 10px;
+	}
+	.top-email{
+		height: 20px;
+		line-height: 20px;
+		font-size: 10px;
+	}	
+	#header{
+		height: 40px;
+		padding: 10px 0px;	
+		position: relative;
+	}
+	.logo{
+		height: 40px;
+		width: 100px;
+	}
+	.logo img{
+		height: 100%;
+		width: 100%;
+		display: block;
+	}
+	.nav{
+		display: none;
+	}
+	.service-number{
+		display: none;
+	}
+	.nav-details{
+		display: block;
+		height: 40px;
+		float: right;
+	}
+	.nav-details img{
+		display: block;
+		height: 40px;
+		width: 40px;
+	}
+	.banner{
+		height: 200px;
+	}
+	.advantages{
+		transform:rotate(0deg);
+		width: 100%;
+		margin-top: 0px;
+		margin-left:0px;
+		height: 150px;
+	}
+	.advantages-box{
+		width: 100%;
+	}
+	.advantages-index{
+		transform:rotate(0deg);
+		height: 70px;
+		width: 70px;
+		padding: 10px;
+		position: absolute;
+		left: 10px;
+		top: 10px;
+	}
+	.advantages-index-a{
+		height: 50px;
+		width: 50px;
+		padding: 10px;
+	}
+	.advantages-index-b{
+		height: 30px;
+		width: 30px;
+		padding: 10px;
+	}
+	.advantages-index-c{
+		height: 30px;
+		width: 30px;
+		line-height: 30px;
+		font-size: 20px;
+	}
+	.advantages-content{
+		transform:rotate(0deg);
+		left: 40%;
+		top: 40px;
+		padding-right: 10px;
+		width: 55%;
+	}
+	.advantages-tilte{
+		height: 30px;
+		width: 100%;
+	}
+	.advantages-title-text{
+		height: 30px;
+		line-height: 30px;
+		font-size: 18px;
+	}
+	.advantages-text{
+		height: 40px;
+		line-height: 20px;
+		font-size: 14px;
+	}
+	.advantages-b{
+		transform:rotate(0deg);
+		height: 150px;
+		margin-left: 0px;
+		width: 100%;
+	}
+	.advantages-b-box{
+		width: 100%;
+	}
+	.advantages-b-index{
+		transform:rotate(0deg);
+		height: 70px;
+		width: 70px;
+		padding: 10px;
+		position: absolute;
+		right: 10px;
+		top: 10px;
+	}
+	.advantages-b-index-a{
+		height: 50px;
+		width: 50px;
+		padding: 10px;
+	}
+	.advantages-b-index-b{
+		height: 30px;
+		width: 30px;
+		padding: 10px;
+	}
+	.advantages-b-index-c{
+		height: 30px;
+		width: 30px;
+		line-height: 30px;
+		font-size: 20px;
+	}
+	.advantages-b-content{
+		transform:rotate(0deg);
+		right: 40%;
+		top: 40px;
+		padding-left: 10px;
+	}
+	.advantages-b-tilte{
+		height: 30px;
+		width: 100%;
+	}
+	.advantages-b-title-text{
+		height: 30px;
+		line-height: 30px;
+		font-size: 18px;
+	}
+	.advantages-b-text{
+		height: 40px;
+		line-height: 20px;
+		font-size: 14px;
+	}
+	.advantages-bot{
+		display: none;
+	}
+	.footer{
+		padding-top: 20px;
+	}
+	.footer-box{
+		padding-bottom: 20px;
+	}
+	.scope-box{
+		width: 100%;
+		float: none;
+	}
+	.scope-title{
+		margin-bottom: 0px;
+	}
+	.footer-service-box{
+		width: 100%;
+		float: none;
+	}
+	.why-us{
+		width: 100%;
+		float: none;
+	}
+	.contact-us{
+		width: 100%;
+		float: none;
+	}
+	.focus-us{
+		width: 100%;
+		float: none;
+	}
+	.focus-us img{
+		float: none;
+		margin: 0 auto;
+	}
+	.footer-bot{
+		height:30px;
+		line-height: 30px;
+		font-size: 10px;
+	}
+}		    	

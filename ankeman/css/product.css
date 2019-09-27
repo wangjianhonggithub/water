@@ -1,0 +1,498 @@
+			.banner{
+	    		height: 500px;	    		
+	    	}
+	    	.banner img{
+	    		display: block;
+	    		width: 100%;
+	    		height: 100%;	    		
+	    	}
+	    	.technology{
+	    		padding: 40px 0px;	    		
+	    	}
+	    	.technology-title{
+	    		height: 45px;
+	    		line-height: 45px;
+	    		text-align: center;
+	    		font-size: 28px;
+	    		font-weight: bolder;
+	    	}
+	    	.technology-title-e{
+	    		height: 20px;
+	    		line-height: 20px;
+	    		font-size: 14px;
+	    		text-align: center;
+	    		text-transform: uppercase;
+	    	}
+	    	.technology-title-e span{
+	    		margin-left: 10px;
+	    	}
+	    	.technology-text{
+	    		padding-top: 40px;
+	    		line-height: 30px;
+	    		font-size: 14px;
+	    	}
+	    	.product-advantage{
+	    		padding: 40px 0px;
+	    		background-color: #d1dfe8;
+	    	}
+	    	.advantage-list{
+	    		padding-top: 70px;
+	    	}
+	    	.advantage-box{
+	    		width: 25%;
+	    		float: left;    		
+	    	}
+	    	.advantage-item{
+	    		background-color: #2681d3;
+	    		border-radius: 12px 12px 0px 0px;
+	    		height: 150px;
+	    		padding-top: 35px;
+	    		position: relative;
+	    		margin: 0px 30px;
+	    	}
+	    	.advantage-text{
+	    		height: 25px;
+	    		line-height: 25px;
+	    		text-align: center;
+	    		font-size: 14px;
+	    		color: #FFFFFF;
+	    	}
+	    	.advantage-bot{
+	    		height: 25px;
+	    		line-height: 25px;
+	    		background-color: #0d6fb8;
+	    		transform: skew(-15deg);
+	    		border-radius: 6px 6px 0px 0px;
+	    		width: 100%;
+	    		position: absolute;
+	    		left: 4px;
+	    		bottom: 0px;
+	    	}
+	    	.advantage-bot-item{
+	    		position: absolute;
+	    		left: 0px;
+	    		bottom: 0px;
+	    		height: 25px;
+	    		width: 30px;
+	    		background-color: #8ebb27;
+	    		border-radius: 6px 0px 0px 0px;
+	    	}
+	    	.service-standard{
+	    		padding: 50px 0px;
+	    	}
+	    	.standard-details{
+	    		padding-top: 50px;
+	    	}
+	    	.standard-pic{
+	    		height: 238px;
+	    		display: block;
+	    		width: 40%;
+	    		float: left;
+	    		border: 1px solid #dddddd;
+	    	}	    	
+	    	.standard-list{
+	    		height: 240px;
+	    		float: right;
+	    		width: 57%;
+	    	}
+	    	.standard-item{
+	    		height: 40px;	    		
+	    	}
+	    	.standard-item-mar{
+	    		margin-bottom: 10px;
+	    	}
+	    	.standard-index{
+	    		height: 40px;
+	    		width: 40px;
+	    		float: left;
+	    		text-align: center;
+	    		line-height: 40px;
+	    		color: #FFFFFF;
+	    		font-size: 14px;
+	    		background-color: #8ebb27;
+	    	}
+	    	.standard-text{
+	    		height:40px;
+	    		line-height: 40px;
+	    		font-size: 14px;
+	    		color: #FFFFFF;
+	    		text-indent: 1em;
+	    		background-color: #0d6fb8;
+	    	}
+	    	.service-promise{
+	    		padding: 40px 0px;
+	    		background-image: url(../img/promise.jpg);
+	    		background-size: cover;
+	    	}
+	    	.promise-title{
+	    		height: 45px;
+	    		line-height: 45px;
+	    		text-align: center;
+	    		font-size: 28px;
+	    		font-weight: bolder;
+	    		color: #FFFFFF;
+	    	}
+	    	.promise-title-e{
+	    		height: 20px;
+	    		line-height: 20px;
+	    		font-size: 14px;
+	    		text-align: center;
+	    		text-transform: uppercase;
+	    		color: #FFFFFF;
+	    	}
+	    	.promise{
+	    		padding-top: 50px;	    		
+	    	}
+	    	.promise-item-a{
+	    		width: 48%;
+	    		height: 348px;
+	    		border:1px solid #458dd5;
+	    		background-image: url(../img/promise-a.jpg);
+	    		background-size: cover;
+	    		float: left;
+	    	}
+	    	.promise-item-b{
+	    		width: 48%;
+	    		height: 348px;
+	    		border:1px solid #458dd5;
+	    		background-image: url(../img/promise-b.jpg);
+	    		background-size: cover;
+	    		float: right;
+	    	}
+	    	.promise-text-a{
+	    		padding-top: 110px;
+	    		height: 145px;
+	    		line-height: 35px;
+	    		text-align: center;
+	    		font-size: 32px;
+	    		color: #FFFFFF;
+	    		font-weight: bolder;
+	    	}
+	    	.promise-text-b{
+	    		height: 40px;
+	    		line-height: 40px;
+	    		text-align: center;
+	    		font-size: 16px;
+	    		color: #FFFFFF;
+	    		font-weight: bolder;
+	    	}
+	    	.promise-text-b span{
+	    		font-size: 30px;
+	    		color: #8ebb27;	    		
+	    	}
+	    	.promise-text-c{
+	    		padding-top: 150px;
+	    		height: 185px;
+	    		line-height: 35px;
+	    		text-align: center;
+	    		font-size: 16px;
+	    		color: #FFFFFF;
+	    		font-weight: bolder;
+	    	}
+	    	.promise-text-c span{
+	    		font-size: 30px;
+	    		color: #3895f0;	    		
+	    	}
+	    	.service-process{
+	    		padding: 50px 0px;
+	    	}
+	    	.process-list{
+	    		padding-top: 50px;
+	    		width: 800px;
+	    		margin: 0 auto;
+	    	}
+	    	.process-item-a{
+	    		height: 48px;
+	    		width: 798px;
+	    		border-top:2px dashed #DDDDDD;
+	    		border-left:2px dashed #DDDDDD;
+/*	    		border-bottom:2px dashed #DDDDDD;*/
+	    		border-radius: 25px 0px 0px 25px;
+	    	}
+	    	.process-item-b{
+	    		height: 48px;
+	    		width: 798px;
+	    		border-top:2px dashed #DDDDDD;
+	    		border-right:2px dashed #DDDDDD;
+	    		/*border-bottom:2px dashed #DDDDDD;*/
+	    		border-radius:  0px 25px 25px 0px;
+	    		margin-left: 20px;
+	    		/*margin-top: -2px;*/
+	    	}
+	    	.process-item-c{
+	    		height: 48px;
+	    		width: 798px;
+	    		border-top:2px dashed #DDDDDD;
+	    		border-left:2px dashed #DDDDDD;
+	    		border-bottom:2px dashed #DDDDDD;
+	    		border-radius: 25px 0px 0px 25px;
+	    	}
+	    	.process-index-a{
+	    		margin-left: 220px;
+	    		float: left;
+	    		height: 18px;
+	    		width: 24px;
+	    		background-color: #cccccc;
+	    		border-radius: 6px;
+	    		text-align: center;
+	    		line-height: 18px;
+	    		margin-top: 15px;
+	    		font-size: 14px;
+	    	}
+	    	.process-index-b{
+	    		margin-left: 202px;
+	    		float: left;
+	    		height: 18px;
+	    		width: 24px;
+	    		background-color: #cccccc;
+	    		border-radius: 6px;
+	    		text-align: center;
+	    		line-height: 18px;
+	    		margin-top: 15px;
+	    		font-size: 14px;
+	    	}
+	    	.process-text{
+	    		height: 48px;
+	    		line-height: 48px;
+	    		font-size: 14px;
+	    		float: left;
+	    		margin-left: 12px;
+	    	}
+	    	.nav-details{
+				display: none;
+			}
+			.nav-a{
+				width: 50%;
+				position: absolute;
+				top:60px ;
+				right: 0px;
+				z-index: 99;
+				display: none;
+			}
+			.nav-a-item{
+				height: 30px;
+				line-height: 30px;
+				font-size: 14px;
+				text-align: center;
+				border-bottom: 1px solid #fff;
+				color: #fff;
+				width: 100%;
+				display: block;
+				background-color: #0a70ba;				
+			}
+@media only screen and (max-width: 420px) {
+	.box{
+		width: 95%;
+	}
+	#top{
+		height: 20px;
+	}
+	.top-mobile{
+		height: 20px;
+		line-height: 20px;
+		font-size: 10px;
+		margin-left: 10px;
+	}
+	.top-email{
+		height: 20px;
+		line-height: 20px;
+		font-size: 10px;
+	}	
+	#header{
+		height: 40px;
+		padding: 10px 0px;	
+		position: relative;
+	}
+	.logo{
+		height: 40px;
+		width: 100px;
+	}
+	.logo img{
+		height: 100%;
+		width: 100%;
+		display: block;
+	}
+	.nav{
+		display: none;
+	}
+	.service-number{
+		display: none;
+	}
+	.nav-details{
+		display: block;
+		height: 40px;
+		float: right;
+	}
+	.nav-details img{
+		display: block;
+		height: 40px;
+		width: 40px;
+	}
+	.banner{
+		height: 100px;
+	}
+	.technology{
+		padding: 10px 0px;
+	}
+	.technology-title{
+		height: 30px;
+		line-height: 30px;
+		font-size: 20px;
+	}
+	.technology-title-e{
+		font-size: 12px;
+	}
+	.technology-text{
+		padding-top: 10px;
+		line-height: 25px;
+		font-size: 12px;
+	}
+	.product-advantage{
+		padding: 10px 0px;
+	}
+	.advantage-list{
+		padding-top: 20px;
+	}
+	.advantage-box{
+		float: none;
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	.advantage-item{
+		padding-top: 10px;
+		height: 120px;
+	}
+	.advantage-text{
+		font-size: 12px;
+	}
+	.service-standard{
+		padding: 10px 0px;
+	}
+	.standard-details{
+		padding-top: 10px;
+	}
+	.standard-pic{
+		float: none;
+		width: 100%;
+	}
+	.standard-list{
+		float: none;
+		width: 100%;
+		height: auto;
+	}
+	.standard-item{
+		height: 60px;
+	}
+	.standard-index{
+		height: 60px;
+		width: 60px;
+		line-height: 60px;
+	}
+	.standard-text{
+		height: 60px;
+		line-height: 20px;
+		font-size: 12px;
+		text-indent: 0em;
+	}
+	.service-promise{
+		padding: 10px 0px;
+	}
+	.promise-title{
+		height: 30px;
+		line-height: 30px;
+		font-size: 20px;
+	}
+	.promise-title-e{
+		font-size: 12px;
+	}
+	.promise{
+		padding-top: 10px;
+	}
+	.promise-item-a{
+		float: none;
+		width: 100%;
+		height: 200px;
+	}
+	.promise-text-a{
+		padding-top: 50px;
+		height: 50px;
+		line-height: 50px;
+		font-size: 20px;
+	}
+	.promise-item-b{
+		float: none;
+		width: 100%;
+		height: 200px;
+	}
+	.promise-text-c{
+		height: 50px;
+		line-height: 50px;
+		padding-top: 75px;
+	}
+	.service-process{
+		padding: 10px 0px;
+	}
+	.process-list{
+		padding-top: 10px;
+		width: 90%;
+	}
+	.process-item-a{
+		width: 90%;
+		height: 72px;
+	}
+	.process-index-a{
+		margin-left: 5px;
+	}
+	.process-item-b{
+		width: 90%;
+		height: 72px;
+	}
+	.process-item-c{
+		width: 90%;
+	}
+	.process-text{
+		line-height: 24px;
+		width: 80%;
+	}
+	.process-index-b{
+		margin-left: -15px;
+	}
+	.footer{
+		padding-top: 20px;
+	}
+	.footer-box{
+		padding-bottom: 20px;
+	}
+	.scope-box{
+		width: 100%;
+		float: none;
+	}
+	.scope-title{
+		margin-bottom: 0px;
+	}
+	.footer-service-box{
+		width: 100%;
+		float: none;
+	}
+	.why-us{
+		width: 100%;
+		float: none;
+	}
+	.contact-us{
+		width: 100%;
+		float: none;
+	}
+	.focus-us{
+		width: 100%;
+		float: none;
+	}
+	.focus-us img{
+		float: none;
+		margin: 0 auto;
+	}
+	.footer-bot{
+		height:30px;
+		line-height: 30px;
+		font-size: 10px;
+	}
+}				

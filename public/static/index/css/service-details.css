@@ -1,0 +1,444 @@
+.banner{
+	    		height: 500px;
+	    		background-image: url(../img/service-details-bg.jpg);
+	    		background-size: cover;
+	    	}
+	    	.banner-list{
+	    		height: 132px;
+	    		margin: 0 auto;
+	    		padding-top: 170px;
+	    		width: 80%;
+	    	}
+	    	.banner-item-box{
+	    		height: 132px;
+	    		float: left;
+	    		width: 25%;
+	    	}
+	    	.banner-item{
+	    		height: 130px;
+	    		border-radius: 10px;
+	    		border: 1px dashed #eeeeee;
+	    		text-align: center;
+	    		line-height: 130px;
+	    		color: #FFFFFF;
+	    		font-size: 16px;
+	    		font-weight: bolder;
+	    		margin: 0 13px;
+	    	}
+	    	.details-box{
+	    		padding-bottom: 40px;
+	    		padding-top: 65px;
+	    		border-bottom: 1px solid #DDDDDD;
+	    		height: 525px;
+	    	}
+	    	.pic-box{	    		
+	    		height: 420px;
+	    		width: 34%;
+	    		float: left;
+	    	}
+	    	.service-item-pic{
+	    		display: block;
+	    		width: 100%;
+	    		height: 100%;
+	    	}
+	    	.details-content{
+	    		width: 62%;
+	    		float: right;	    		
+	    	}
+	    	.details-title{
+	    		height: 20px;
+	    		line-height: 20px;
+	    		color: #444444;
+	    		font-size: 16px;
+	    	}
+	    	.title-bt{
+	    		height: 15px;
+	    		display: block;
+	    		width: 90px;
+	    		border-bottom: 1px solid #000;
+	    	}
+	    	.update-title{
+	    		height: 60px;
+	    		line-height: 60px;
+	    		font-size: 14px;
+	    		color: #999999;
+	    		border-bottom: 1px solid #dddddd;
+	    	}
+			.update-title .a{
+				height: 60px;
+				line-height: 60px;
+				font-size: 14px;
+				color: #999999;
+				float: left;
+			}
+	    	.update-title .b{
+				height: 60px;
+				line-height: 60px;
+				font-size: 14px;
+				color: #999999;
+				float: left;
+	    	}
+			.update-title .c{
+				height: 60px;
+				line-height: 60px;
+				font-size: 14px;
+				color: #0d6fb8;
+				margin-left: 20px;
+				float: left;
+			}
+	    	.appointment-title{
+	    		height: 75px;
+	    		line-height: 75px;
+	    		font-size: 22px;
+	    		font-weight: bolder;
+	    		color: #333333;
+	    	}
+	    	.appointment{
+	    		height: 42px;
+	    	}
+	    	.appointment-row{
+	    		height: 67px;
+	    		padding-bottom: 25px;
+	    	}
+	    	#appointment-name{
+	    		display: block;
+	    		height: 40px;
+	    		line-height: 40px;
+	    		font-size: 16px;
+	    		border: 1px solid #dddddd;
+	    		border-radius: 5px;
+	    		padding-left: 10px;
+	    		float: left;
+	    		margin-right: 20px;
+	    		width: 230px;
+	    	}
+	    	#appointment-mobile{
+	    		display: block;
+	    		height: 40px;
+	    		line-height: 40px;
+	    		font-size: 16px;
+	    		border: 1px solid #dddddd;
+	    		border-radius: 5px;
+	    		padding-left: 10px;
+	    		float: left;
+	    		margin-right: 20px;
+	    		width: 230px;
+	    	}
+	    	#appointment-area{
+	    		display: block;
+	    		height: 40px;
+	    		line-height: 40px;
+	    		font-size: 16px;
+	    		border: 1px solid #dddddd;
+	    		border-radius: 5px;
+	    		padding-left: 10px;
+	    		float: left;
+	    		margin-right: 20px;
+	    	}
+	    	#s1{
+	    		display: block;
+	    		height: 40px;
+	    		line-height: 40px;
+	    		font-size: 16px;
+	    		border: 1px solid #dddddd;
+	    		border-radius: 5px;
+	    		padding-left: 10px;
+	    		float: left;
+	    		margin-right: 20px;
+	    		width: 150px;
+	    	}
+	    	#s2{
+	    		display: block;
+	    		height: 40px;
+	    		line-height: 40px;
+	    		font-size: 16px;
+	    		border: 1px solid #dddddd;
+	    		border-radius: 5px;
+	    		padding-left: 10px;
+	    		float: left;
+	    		width: 150px;
+	    	}
+	    	.sub-appointment{
+	    		display: block;
+	    		height: 40px;
+	    		line-height: 40px;
+	    		font-size: 16px;
+	    		border-radius: 5px;
+	    		text-align: center;
+	    		width: 180px;
+	    		background-color: #8ebb27;
+	    		color: #FFFFFF;	    		
+	    	}
+	    	.details-text{
+	    		padding-top: 40px;
+	    		padding-bottom: 100px;
+	    	}
+	    	.text-title{
+	    		font-size: 14px;
+	    		color: #444444;
+	    		line-height: 26px;
+	    		height: 26px;
+	    		text-overflow: ellipsis;
+				overflow: hidden;
+				white-space: nowrap;
+	    	}
+	    	.nav-details{
+				display: none;
+			}
+			.nav-a{
+				width: 50%;
+				position: absolute;
+				top:60px ;
+				right: 0px;
+				z-index: 99;
+				display: none;
+			}
+			.nav-a-item{
+				height: 30px;
+				line-height: 30px;
+				font-size: 14px;
+				text-align: center;
+				border-bottom: 1px solid #fff;
+				color: #fff;
+				width: 100%;
+				display: block;
+				background-color: #0a70ba;				
+			}
+@media only screen and (max-width: 420px) {
+	.box{
+		width: 95%;
+	}
+	#top{
+		height: 20px;
+	}
+	.top-mobile{
+		height: 20px;
+		line-height: 20px;
+		font-size: 10px;
+		margin-left: 10px;
+	}
+	.top-email{
+		height: 20px;
+		line-height: 20px;
+		font-size: 10px;
+	}	
+	#header{
+		height: 40px;
+		padding: 10px 0px;	
+		position: relative;
+	}
+	.logo{
+		height: 40px;
+		width: 100px;
+	}
+	.logo img{
+		height: 100%;
+		width: 100%;
+		display: block;
+	}
+	.nav{
+		display: none;
+	}
+	.service-number{
+		display: none;
+	}
+	.nav-details{
+		display: block;
+		height: 40px;
+		float: right;
+	}
+	.nav-details img{
+		display: block;
+		height: 40px;
+		width: 40px;
+	}
+	.banner{
+		height: 200px;
+	}
+	.banner-list{
+		width: 90%;
+		height: 100px;
+		padding-top: 50px;
+	}
+	.banner-item-box{
+		width: 50%;
+		height: 50px;
+	}
+	.banner-item{
+		height: 40px;
+		line-height: 40px;
+		font-size: 12px;
+	}
+	.details-box{
+		padding-top: 10px;
+		padding-bottom: 10px;
+		height: auto;
+	}
+	.pic-box{
+		width: 100%;
+		float: none;
+		height: 300px;
+	}
+	.details-content{
+		width: 100%;
+		float: none;
+	}
+	.details-title{
+		height: 30px;
+		line-height: 30px;
+		font-size: 16px;
+		overflow: hidden;
+	}
+	.title-bt{
+		height: 5px;
+	}
+	.update-title{
+		height: 20px;
+	}
+	.update-title .a{
+		height: 20px;
+		line-height: 20px;
+		font-size: 12px;
+	}
+	.update-title .b{
+		display: block;
+		height: 20px;
+		line-height: 20px;
+		font-size: 12px;
+		margin-left: 0px;
+	}
+	.update-title .c{
+		display: block;
+		height: 20px;
+		line-height: 20px;
+		font-size: 12px;
+		margin-left: 0px;
+	}
+	.yuyue-box{
+		padding: 20px 0px;
+	}
+	.appointment-title{
+		height: 60px;
+		line-height: 30px;
+		font-size: 16px;
+	}
+	.appointment{
+		height: auto;
+	}
+	.appointment-row{
+		padding-bottom: 10px;
+		height: 70px;
+	}
+	#appointment-name{
+		height: 30px;
+		line-height: 30px;
+		float: none;
+		margin-left: 0px;
+		width: 100%;
+		padding-left:0px;
+		margin-top: 10px;
+	}
+	#appointment-mobile{
+		height: 30px;
+		line-height: 30px;
+		float: none;
+		margin-left: 0px;
+		width: 100%;
+		padding-left:0px;
+		margin-top: 10px;
+	}
+	#appointment-area{
+		height: 30px;
+		line-height: 30px;
+		float: none;
+		margin-left: 0px;
+		width: 100%;
+		padding-left:0px;
+		margin-top: 10px;
+	}
+	#s1{
+		height: 30px;
+		line-height: 30px;
+		float: none;
+		margin-left: 0px;
+		width: 100%;
+		padding-left:0px;
+		margin-top: 10px;
+	}
+	#s2{
+		height: 30px;
+		line-height: 30px;
+		float: none;
+		margin-left: 0px;
+		width: 100%;
+		padding-left:0px;
+		margin-top: 10px;
+	}
+	.sub-appointment{
+		float:none;
+		margin: 0px auto;
+		margin-top: 60px;
+	}
+	.service-list{
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	.service-item-box{
+		float: none;
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.service-item-text{
+		padding: 10px;
+		line-height: 20px;
+		height: 100px;
+		overflow: hidden;
+	}
+	.service-item-date{
+		padding: 0px 10px;
+		height: 30px;
+		line-height: 30px;
+	}
+	.details-text{
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}	
+	.footer{
+		padding-top: 20px;
+	}
+	.footer-box{
+		padding-bottom: 20px;
+	}
+	.scope-box{
+		width: 100%;
+		float: none;
+	}
+	.scope-title{
+		margin-bottom: 0px;
+	}
+	.footer-service-box{
+		width: 100%;
+		float: none;
+	}
+	.why-us{
+		width: 100%;
+		float: none;
+	}
+	.contact-us{
+		width: 100%;
+		float: none;
+	}
+	.focus-us{
+		width: 100%;
+		float: none;
+	}
+	.focus-us img{
+		float: none;
+		margin: 0 auto;
+	}
+	.footer-bot{
+		height:30px;
+		line-height: 30px;
+		font-size: 10px;
+	}
+}		

@@ -1,0 +1,81 @@
+{extend name="Public:base" /}
+{block name="content"}
+<div class="panel">
+    <!-- Panel heading -->
+    <div class="panel-heading">
+        <h3 class="panel-title">服务流程</h3>
+    </div>
+    <br/>
+    <br/>
+    <!-- Panel body -->
+    <form id="demo-bv-errorcnt" class="form-horizontal bv-form" action="" method="POST" novalidate="novalidate">
+        <button type="submit" class="bv-hidden-submit" style="display: none; width: 0px; height: 0px;"></button>
+        <div class="panel-body">
+            <div class="tab-content">
+                <!--SHOWING ERRORS IN TOOLTIP-->
+                <!--===================================================-->
+                {volist name="rs" id="vo"}
+                <div class="form-group has-feedback">
+                    <label class="col-lg-3 control-label">流程{$vo.id}：</label>
+                    <div class="col-lg-4">
+                        <input type="text" class="form-control" name="flow{$vo.id}" value="{$vo.content}" placeholder="" data-bv-field="name">
+                        <i class="form-control-feedback" data-bv-icon-for="name" style="display: none;"></i>
+                    </div>
+                </div>
+                {/volist}
+            </div>
+        </div>
+        <div class="panel-footer clearfix">
+            <div class="col-lg-7 col-lg-offset-3">
+                <button type="button" class="btn btn-mint" id="CreateSubmit" value="点击修改">点击修改</button></div>
+        </div>
+    </form>
+</div>
+<script>
+    $(function(){
+        $('#CreateSubmit').click(function(){
+
+            var flow1 = $("input[name='flow1']").val();
+            var flow2 = $("input[name='flow2']").val();
+            var flow3 = $("input[name='flow3']").val();
+            var flow4 = $("input[name='flow4']").val();
+            var flow5 = $("input[name='flow5']").val();
+
+            $.ajax({
+                type: 'POST',
+                url: '/Admin/Product/ajaxProductupdata',
+                data: {
+                    type:'lc',
+                    1:flow1,
+                    2:flow2,
+                    3:flow3,
+                    4:flow4,
+                    5:flow5
+                },
+                success: function(data){
+                    var data= eval('('+data+')');
+                    if (data.code == 1) {
+                        layer.msg(data.meg, function(){
+                            //关闭后的操作
+                        });
+                        setTimeout(function(){
+                            window.location.href='/Admin/Serviceflow';
+                        },1500);
+                    }else{
+                        layer.msg(data.meg, function(){
+                            //关闭后的操作
+                        });
+                        return false;
+                    }
+                },
+                error:function(){
+                    layer.msg('与服务器失去连接', function(){
+                        //关闭后的操作
+                    });
+                }
+            });
+        })
+    });
+</script>
+{/block}
+

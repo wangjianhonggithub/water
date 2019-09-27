@@ -1,0 +1,84 @@
+{extend name="Public:base" /}
+{block name="content"}
+<div class="panel">
+    <!-- Panel heading -->
+    <div class="panel-heading">
+
+        <h3 class="panel-title">服务标准</h3>
+
+    </div>
+    <br/>
+    <br/>
+    <!-- Panel body -->
+    <form id="demo-bv-errorcnt" class="form-horizontal bv-form" action="" method="POST" novalidate="novalidate">
+        <button type="submit" class="bv-hidden-submit" style="display: none; width: 0px; height: 0px;"></button>
+        <div class="panel-body">
+            <div class="tab-content">
+                <!--SHOWING ERRORS IN TOOLTIP-->
+                <!--===================================================-->
+
+                {volist name="rs" id="vo"}
+                <div class="form-group has-feedback">
+                    <label class="col-lg-3 control-label">服务{$vo.id}：</label>
+                    <div class="col-lg-4">
+                        <input type="text" class="form-control" name="standards{$vo.id}" value="{$vo.content}" placeholder="" data-bv-field="name">
+                        <i class="form-control-feedback" data-bv-icon-for="name" style="display: none;"></i>
+                    </div>
+                </div>
+                {/volist}
+            </div>
+        </div>
+        <div class="panel-footer clearfix">
+            <div class="col-lg-7 col-lg-offset-3">
+                <button type="button" class="btn btn-mint" id="CreateSubmit" value="点击修改">点击修改</button></div>
+        </div>
+    </form>
+</div>
+<script>
+    $(function(){
+        $('#CreateSubmit').click(function(){
+            
+            var standards1 = $("input[name='standards1']").val();
+            var standards2 = $("input[name='standards2']").val();
+            var standards3 = $("input[name='standards3']").val();
+            var standards4 = $("input[name='standards4']").val();
+            var standards5 = $("input[name='standards5']").val();
+
+            $.ajax({
+                type: 'POST',
+                url: '/Admin/Product/ajaxProductupdata',
+                data: {
+                    type:'bz',
+                    1:standards1,
+                    2:standards2,
+                    3:standards3,
+                    4:standards4,
+                    5:standards5
+                },
+                success: function(data){
+                    var data= eval('('+data+')');
+                    if (data.code == 1) {
+                        layer.msg(data.meg, function(){
+                            //关闭后的操作
+                        });
+                        setTimeout(function(){
+                            window.location.href='/Admin/Servicestandards';
+                        },1500);
+                    }else{
+                        layer.msg(data.meg, function(){
+                            //关闭后的操作
+                        });
+                        return false;
+                    }
+                },
+                error:function(){
+                    layer.msg('与服务器失去连接', function(){
+                        //关闭后的操作
+                    });
+                }
+            });
+        })
+    });
+</script>
+{/block}
+

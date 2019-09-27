@@ -1,0 +1,93 @@
+{extend name="Public:base" /}
+{block name="content"}
+<div class="panel">
+  <!-- Panel heading -->
+  <div class="panel-heading">
+    <div class="panel-control">
+     
+    </div>
+    <h3 class="panel-title">修改导航</h3></div>
+  <!-- Panel body -->
+  <form id="demo-bv-errorcnt" class="form-horizontal FormAction bv-form" action="" method="POST" novalidate="novalidate">
+    <button type="submit" class="bv-hidden-submit" style="display: none; width: 0px; height: 0px;"></button>
+    <div class="panel-body">
+      <div class="tab-content">
+        <!--SHOWING ERRORS IN TOOLTIP-->
+        <!--===================================================-->
+          <input type="hidden" name="id" value="{$rs.id}">
+          <div class="form-group has-feedback">
+            <label class="col-lg-3 control-label">导航名</label>
+            <div class="col-lg-7">
+              <input type="text" class="form-control" name="menu" value="{$rs.menu}" placeholder="" data-bv-field="name">
+              <i class="form-control-feedback" data-bv-icon-for="name" style="display: none;"></i>
+            </div>
+          </div>
+          <div class="form-group has-feedback">
+            <label class="col-lg-3 control-label">导航位置</label>
+            <div class="col-lg-7">
+              <input type="text" class="form-control" name="display" value="{$rs.display}" placeholder="" data-bv-field="name">
+              <i class="form-control-feedback" data-bv-icon-for="name" style="display: none;"></i>
+            </div>
+          </div>
+          <div class="form-group has-feedback">
+            <label class="col-lg-3 control-label">URL地址</label>
+            <div class="col-lg-7">
+              <input type="email" class="form-control" name="url" value="{$rs.url}" placeholder="" data-bv-field="name">
+              <i class="form-control-feedback" data-bv-icon-for="email" style="display: none;"></i>
+            </div>
+          </div>
+        <div class="form-group has-feedback">
+          <label class="col-lg-3 control-label">是否显示(0为：不显示，1为：显示)</label>
+          <div class="col-lg-7">
+            <input type="email" class="form-control" name="status" value="{$rs.status}" placeholder="" data-bv-field="name">
+            <i class="form-control-feedback" data-bv-icon-for="email" style="display: none;"></i>
+          </div>
+        </div>
+        </div>
+       </div>
+    </div>
+    <div class="panel-footer clearfix">
+      <div class="col-lg-7 col-lg-offset-3">
+        <button type="button" class="btn btn-mint" id="UpdateSubmit" value="点击修改">点击修改</button></div>
+    </div>
+  </form>
+</div>
+<script>
+  $(function(){
+      $('#UpdateSubmit').click(function(){
+          var id = $("input[name='id']").val();
+          var menu = $("input[name='menu']").val();
+          var display = $("input[name='display']").val();
+          var url  = $("input[name='url']").val();
+          var status  = $("input[name='status']").val();
+          $.ajax({
+              type: 'POST',
+              url: '/Admin/Menu/ajaxUpdate',
+              data: {
+                  id:id,
+                  menu:menu,
+                  display:display,
+                  url:url,
+                  status:status
+              },
+              success: function(data){
+                  var data= eval('('+data+')');
+                  if (data.code == 0) {
+                      layer.msg(data.msg, function(){
+                        //关闭后的操作
+                      });
+                      setTimeout(function(){
+                        window.location.href=document.referrer;
+                      },1500);
+                  }else{
+                      layer.msg(data.msg, function(){
+                        //关闭后的操作
+                      });
+                      return false;
+                  }
+              },
+        });
+      })
+  });
+</script>
+{/block}

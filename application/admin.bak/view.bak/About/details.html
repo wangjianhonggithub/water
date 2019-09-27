@@ -1,0 +1,122 @@
+{extend name="Public:base" /}
+{block name="content"}
+<div class="panel">
+  <!-- Panel heading -->
+  <div class="panel-heading">
+
+    <h3 class="panel-title">联系我们</h3>
+
+  </div>
+  <div id="demo-custom-toolbar2" class="table-toolbar-left">
+        <a href="javascript:;" id="demo-dt-addrow-btn" class="btn btn-primary" onClick="javascript:history.back()">返回列表</a> 
+  </div>
+    <br/>
+    <br/>
+  <!-- Panel body -->
+  <form id="demo-bv-errorcnt" class="form-horizontal bv-form" action="" method="POST" novalidate="novalidate">
+  <input type="hidden" name="id" value="{$details.id}">
+    <button type="submit" class="bv-hidden-submit" style="display: none; width: 0px; height: 0px;"></button>
+    <div class="panel-body">
+      <div class="tab-content">
+        <!--SHOWING ERRORS IN TOOLTIP-->
+        <!--===================================================-->
+			<div class="form-group has-feedback">
+				<label class="col-lg-3 control-label">手机</label>
+				<div class="col-lg-4">
+				  <input type="text" class="form-control" name="tel" value="{$details.tel}" placeholder="电话" data-bv-field="name">
+				  <i class="form-control-feedback" data-bv-icon-for="name" style="display: none;"></i>
+				</div>
+			</div>
+			<div class="form-group has-feedback">
+				<label class="col-lg-3 control-label">座机</label>
+				<div class="col-lg-4">
+				  <input type="text" class="form-control" name="phone" value="{$details.phone}" placeholder="座机" data-bv-field="name">
+				  <i class="form-control-feedback" data-bv-icon-for="name" style="display: none;"></i>
+				</div>
+			</div>
+			<div class="form-group has-feedback">
+				<label class="col-lg-3 control-label">邮箱</label>
+				<div class="col-lg-4">
+				  <input type="text" class="form-control" name="email" value="{$details.email}" placeholder="邮箱" data-bv-field="name">
+				  <i class="form-control-feedback" data-bv-icon-for="name" style="display: none;"></i>
+				</div>
+			</div>
+			<div class="form-group has-feedback">
+				<label class="col-lg-3 control-label">地址</label>
+				<div class="col-lg-4">
+				  <input type="text" class="form-control" name="address" value="{$details.address}" placeholder="地址" data-bv-field="name">
+				  <i class="form-control-feedback" data-bv-icon-for="name" style="display: none;"></i>
+				</div>
+			</div>
+			<div class="form-group has-feedback">
+				<label class="col-lg-3 control-label">电话</label>
+				<div class="col-lg-4">
+				  <input type="text" class="form-control" name="reporting_tel" value="{$details.reporting_tel}" placeholder="电话" data-bv-field="name">
+				  <i class="form-control-feedback" data-bv-icon-for="name" style="display: none;"></i>
+				</div>
+			</div>
+			<div class="form-group has-feedback">
+				<label class="col-lg-3 control-label">举报邮箱</label>
+				<div class="col-lg-4">
+				  <input type="text" class="form-control" name="reporting_email" value="{$details.reporting_email}" placeholder="举报邮箱" data-bv-field="name">
+				  <i class="form-control-feedback" data-bv-icon-for="name" style="display: none;"></i>
+				</div>
+			</div>
+      
+       </div>
+    </div>
+	<div class="panel-footer clearfix">
+      <div class="col-lg-7 col-lg-offset-3">
+        <button type="button" class="btn btn-mint" id="CreateSubmit" value="点击修改">点击修改</button></div>
+    </div>
+  </form>
+</div>
+<script>
+  $(function(){
+      $('#CreateSubmit').click(function(){
+	    var id = $("input[name='id']").val();
+        var tel = $("input[name='tel']").val();
+		var phone = $("input[name='phone']").val();
+		var email = $("input[name='email']").val();
+		var address = $("input[name='address']").val();
+		var reporting_tel = $("input[name='reporting_tel']").val();
+		var reporting_email = $("input[name='reporting_email']").val();
+        $.ajax({
+          type: 'POST',
+          url: '/About/DoAdd',
+          data: {
+			id:id,
+            tel:tel,
+            phone:phone,
+            email:email,
+            address:address,
+			reporting_tel:reporting_tel,
+			reporting_email:reporting_email,
+          },
+          success: function(data){
+              var data= eval('('+data+')');
+              if (data.code == 1) {
+                  layer.msg(data.meg, function(){
+                    //关闭后的操作
+                  });
+                  setTimeout(function(){
+                    window.location.href='/Admin/about';
+                  },1500);
+              }else{
+                  layer.msg(data.meg, function(){
+                    //关闭后的操作
+                  });
+                  return false;
+              }
+          },
+		  error:function(){
+			layer.msg('与服务器失去连接', function(){
+			   //关闭后的操作
+		    });
+		  }
+        });
+      })
+  });
+</script>
+{/block}
+  

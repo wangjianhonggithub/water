@@ -1,0 +1,92 @@
+body,h1,h2,h3,h4,h5,h6,p,ul,li,dt,dd,dl,input,img{margin:0;padding:0;}
+			ol,ul{list-style:none;}
+			a{text-decoration:none;}
+			img,input{border:none;}
+			i{font-style:normal;}
+			.clearfix:after {visibility:hidden;display:block;font-size:0;content:" ";clear:both;height:0;}
+			.clearfix {zoom:1;}
+			.clear{clear:both;}			
+	    	#top{
+	    		background-color: #f6f4f4;
+	    		height: 36px;	    		
+	    	}
+	    	.box{
+	    		width: 1200px;
+	    		margin: 0 auto;
+	    	}
+	    	.top-email{
+	    		color: #666666;
+	    		font-size: 12px;
+	    		height: 36px;
+	    		line-height: 36px;
+	    		float: right;
+	    	}
+	    	.top-mobile{
+	    		color: #666666;
+	    		font-size: 12px;
+	    		height: 36px;
+	    		line-height: 36px;
+	    		float: right;
+	    		margin-left: 20px;
+	    	}
+	    	#header{
+	    		height: 114px;
+	    		padding: 16px 0px;
+	    	}
+	    	.logo{
+	    		display: block;
+	    		height: 82px;
+	    		width: 20%;
+	    		float: left;
+	    	}
+	    	.logo img{
+	    		height: 82px;
+	    		width: 200px;
+	    		display: block;
+	    	}
+	    	.nav{
+	    		float: left;
+	    		height: 82px;
+	    		width: 60%;
+	    	}
+	    	.nav-item{
+	    		margin-top: 30px;
+	    		height: 44px;
+	    		padding: 0px 10px;
+	    		float: left;
+	    	}
+	    	.nav-item a{
+	    		display: block;
+	    		height: 40px;
+	    		line-height: 40px;
+	    		color: #333333;
+	    		font-size: 18px;
+	    		width: 100%;
+	    		text-decoration: none;	    		
+	    	}
+	    	.service-number{
+	    		height: 82px;
+	    		float: right;
+	    		width: 20%;
+	    	}
+	    	.service-number img{
+	    		display: block;
+	    		height: 40px;
+	    		width: 40px;
+	    		float: right;
+	    		margin-top:30px ;
+	    	}
+	    	.number{
+	    		height: 40px;
+	    		float: right;
+	    		line-height: 40px;
+	    		font-size: 20px;
+	    		font-weight: bolder;
+	    		color: #0d6fb8;
+	    		margin-top:30px;
+	    		margin-left: 15px;
+	    	}
+	    	.ac-item{
+	    		border-bottom: 4px solid #0d6fb8;
+	    		color: #0d6fb8;
+	    	}
